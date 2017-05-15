@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "node-fetch": "^1.6.3"
+    "webpack": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^3.5.0",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.4.1",
+    "node-fetch": "^1.6.3",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
   }
 }
